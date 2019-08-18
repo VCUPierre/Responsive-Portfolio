@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-UofR Boot Camp - Responsive-Portfolio HW 2
+# Basic-Portfolio.github.io
+UofR Boot Camp - Basic-Portfolio HW 1

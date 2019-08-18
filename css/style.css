@@ -24,6 +24,7 @@ nav{
     height: 75px;
     background-color: white;
     border-bottom: 5px solid #cccccc;
+    position: static;
 }
 footer{
     display: inline-block;
@@ -108,6 +109,7 @@ a{
 .p-cust3{
     margin-bottom: 0;
     padding-top: 20px;
+    color: white;
 }
 .contentBoxCust{
     padding-right: 20px;
@@ -183,3 +185,106 @@ a{
     text-align: center;
     margin-left: 10px;
 }
+@media only screen and (max-width: 980px) {
+    #header-section{
+        margin-top: 10px;
+        margin-left: 5%;
+        width: 910px;
+    }
+    main{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 5%;
+        width: 680px;
+    }
+    body{
+        width: 960px;
+    }
+    nav{
+        width: 960px;
+    }
+    footer{
+        width: 960px;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    #header-section{
+        margin-top: 10px;
+        margin-left: 5%;
+        width: 660px;
+    }
+    main{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 5%;
+        width: 640px;
+    }
+    body{
+        width: 748px;
+    }
+    nav{
+        width: 748px;
+    }
+    footer{
+        width: 748px;
+    }
+  }
+@media only screen and (max-width: 640px) {
+    #header-section{
+        margin: 0;
+        width: 660px;
+    }
+    main{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 5%;
+        width: 570px;
+    }
+    body{
+        width: 620px;
+    }
+    nav{
+        width: 640px;
+        height: auto;
+    }
+    footer{
+        width: 620px;
+    }
+    img{
+        float: none;
+        height: 300px;
+        width: 210px;
+    }
+    form{
+        text-align: left;
+    }
+    #logo{
+        float: none;
+        width: 100%;
+        padding: 3px;
+    }
+    #menu{
+        float: none;
+        width:  100%;
+        text-align: center;
+        padding-left: 0;
+    }
+    #content{
+        text-align: center;
+    }
+    .p-cust{
+        padding-left: 0;
+    }
+    .p-cust2{
+        text-align: left;
+    }
+    .p-cust3{
+        text-align: left;
+    }
+    .banner{
+        padding: 10px;
+    }
+    .phoneAlignFix{
+        padding-right: 40px;
+    }
+  }
